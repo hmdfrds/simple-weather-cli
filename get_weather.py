@@ -28,11 +28,11 @@ def get_weather(city_name):
 
             print(f"Weather in {city}:")
             print("-" *25)
-            print(f"Temperature:    {temp}C")
-            print(f"Feels Like: {feels_like}")
-            print(f"Description:    {description}")
-            print(f"Humidity:   {humidity}%")
-            print(f"Wind Speed: {wind_speed} m/s)")
+            print(f"Temperature: {temp}C")
+            print(f"Feels Like : {feels_like}C")
+            print(f"Description: {description}")
+            print(f"Humidity   : {humidity}%")
+            print(f"Wind Speed : {wind_speed} m/s)")
 
         elif response.status_code== 404:
             print("Error: City not found. Please check the spelling.")
